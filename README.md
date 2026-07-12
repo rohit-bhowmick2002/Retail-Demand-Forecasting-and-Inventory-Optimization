@@ -500,15 +500,36 @@ streamlit run dashboards/streamlit_app.py
 
 ---
 
-## 🎯 Strategic Portfolio Competency Matrix
+## 👤 Author
 
-By structuring your Data Science & ML Engineering portfolio around three distinct, high-impact problem domains, you demonstrate complete technical versatility and executive communication mastery across all primary industry architectures:
+<div align="center">
 
-| Portfolio Project | Primary Problem Type | Key Technical Competencies Showcased | Quantified Business & Financial Impact |
-| :--- | :--- | :--- | :--- |
-| **1. AML & Financial Fraud Detection** | **Classification** <br> *(Highly Imbalanced Data)* | XGBoost / CatBoost, SMOTE / Cost-Sensitive Weights, Precision-Recall Threshold Optimization, Graph Features | Preventing multi-million dollar fraud losses, regulatory compliance, -40% false-positive reduction |
-| **2. Public Transport Delay Prediction** | **Regression** <br> *(Spatial-Temporal Analytics)* | Spatial Hashing (`H3`/`Geohash`), Weather API Integration, Residual Diagnostics, Real-Time Fast API Inference | Route scheduling optimization, commuter satisfaction, fleet fuel & crew allocation efficiency |
-| **3. Retail Demand & Inventory Optimization** <br> *(This Project)* | **Time-Series Forecasting + Operations Research** | **Polars Out-of-Core Downcasting, Global LightGBM (Tweedie), MinT Reconciliation, Safety Stock / EOQ Math** | **-$14.2% warehouse holding costs, -$31.5% stockout revenue loss, Star-Schema BI reporting** |
+### Rohit Bhowmick
+
+Data Scientist | ML Engineer
+
+<p>
+  <a href="mailto:rohitbhowmick817@gmail.com"><img src="https://img.shields.io/badge/Email-rohitbhowmick817%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/rohit-bhowmick"><img src="https://img.shields.io/badge/LinkedIn-Rohit%20Bhowmick-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/rohit-bhowmick2002"><img src="https://img.shields.io/badge/GitHub-rohit--bhowmick2002-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
+
+</div>
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- **[Kaggle](https://www.kaggle.com)** - For hosting the competition
+- **[KKBox](https://www.kkbox.com)** - For providing the dataset
+- **[WSDM](http://www.wsdm-conference.org/)** - For organizing WSDM Cup 2018
+- **All Kaggle competitors** - For inspiring discussions and solutions
 
 ---
 <div align="center">
