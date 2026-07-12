@@ -1,0 +1,35 @@
+# Operations Research Supply Chain Inventory Optimization Policies
+global_defaults:
+  lead_time_days: 7.0
+  lead_time_std_days: 1.5
+  service_level_z_score: 1.65       # 95% service level
+  annual_holding_cost_rate: 0.25    # 25% of unit purchase price annually
+  fixed_order_cost_usd: 15.00       # $15 administrative & receiving cost per PO
+
+abc_xyz_policies:
+  Class_A:
+    target_service_level: 0.98
+    z_score: 2.05
+    review_period: "Daily JIT Replenishment"
+    priority: "High Safety Stock / Strict Monitoring"
+  Class_B:
+    target_service_level: 0.92
+    z_score: 1.41
+    review_period: "Bi-Weekly Review"
+    priority: "Standard Reorder Point (ROP)"
+  Class_C:
+    target_service_level: 0.85
+    z_score: 1.04
+    review_period: "Monthly Consolidated Bulk Order"
+    priority: "Economic Order Quantity (EOQ)"
+
+perishable_newsvendor:
+  FOODS_1:
+    salvage_value_ratio: 0.15
+    cost_to_price_ratio: 0.60
+  FOODS_2:
+    salvage_value_ratio: 0.20
+    cost_to_price_ratio: 0.65
+  FOODS_3:
+    salvage_value_ratio: 0.30
+    cost_to_price_ratio: 0.55

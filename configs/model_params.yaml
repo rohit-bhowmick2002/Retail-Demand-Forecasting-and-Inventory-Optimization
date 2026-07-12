@@ -1,0 +1,32 @@
+# Global LightGBM Model Hyperparameters for M5 Retail Forecasting
+lightgbm_tweedie:
+  objective: "tweedie"
+  tweedie_variance_power: 1.1       # 1.0 = Poisson, 2.0 = Gamma. 1.1 tailored for intermittent retail demand
+  metric: "rmse"
+  boosting_type: "gbdt"
+  n_estimators: 1500
+  learning_rate: 0.03
+  num_leaves: 63
+  min_child_samples: 50
+  subsample: 0.8
+  colsample_bytree: 0.8
+  max_depth: -1
+  reg_alpha: 0.1
+  reg_lambda: 1.0
+  random_state: 42
+  n_jobs: -1
+
+xgboost_poisson:
+  objective: "count:poisson"
+  eval_metric: "rmse"
+  n_estimators: 1200
+  learning_rate: 0.035
+  max_depth: 8
+  subsample: 0.85
+  colsample_bytree: 0.8
+  random_state: 42
+
+temporal_split:
+  train_end_day: 1883
+  validation_days: 28
+  test_days: 28
