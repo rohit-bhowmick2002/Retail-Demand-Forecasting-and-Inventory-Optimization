@@ -1,0 +1,2 @@
+# Retail-Demand-Forecasting-and-Inventory-Optimization
+End-to-End AI Retail Demand Forecasting &amp; Inventory Optimization Engine on the 83M+ row Kaggle M5 dataset. Features Polars memory downcasting (10x compression), Global LightGBM (Tweedie loss), MinT reconciliation, and an Operations Research supply chain engine (Safety Stock, ROP &amp; EOQ) with a Star-Schema Power BI &amp; Streamlit Command Center.
